@@ -1,0 +1,31 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: tibetan_words1
+  name: "tibetan_words1"
+  description: 
+    按Wylie轉寫輸入藏文
+    多字詞三種打法：1.全碼；2.字根、下加字、元音；3.字根。保留末尾下加字元音及後加字。
+
+engine:
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz.,;''0123456789\/A'
+  delimiter: ' '
+  algebra:
+#    - derive/A/\\/
+#    - derive/A/\.\./
+#    - derive/A/\.;/
+#    - xform/】af/】f/
+#    - xform/】a$/】/
+#    - derive/】[^】【]*$//
+    - xform/[【】［]//
+#    - xform///
+#    - derive/\.ks/k\.s/
+#    - derive/v/'/
+
+translator:
+  dictionary: tibetan_words1

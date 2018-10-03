@@ -1,0 +1,2387 @@
+# .rime dictionary
+# encoding: utf-8
+#
+# Tibetan 藏文 Wylie轉寫 
+#以下以#開頭的行都是注釋行，不在編碼表中。
+#
+#  Wylie轉寫，捲舌音和長元音、倒i前加‘.’，豎線用','，點号用'f'，ཨ用A或\，ཞ用q，符号用/的組合，梵文下加字也用/。
+#   x /    q A    zh q    sh x    
+#[ༀ༁༂༃༄༅༆༇༈༉༊༏༐༑༒༓༔༕༖༗༘༙༚༛༜༝༞༟༪༫༬༭༮༯༰༱༲༳༴༵༶༷༸༹༺༻༼༽༾༿]
+#[༠༡༢༣༤༥༦༧༨༩་༌།༎ཀཁགགྷངཅཆཇཉཊཋཌཌྷཎཏཐདདྷནཔཕབབྷམཙཚཛཛྷཝཞཟའཡརལཤཥསཧཨཀྵཪཱཱཱིིུུྲྀཷླྀཹེཻོཽཾཿ྄ཱྀྀྂྃ྅྆྇ྈྉྊྋྐྑྒྒྷྔྕྖྗྙྚྛྜྜྷྞྟྠྡྡྷྣྤྥྦྦྷྨྩྪྫྫྷྭྮྯྰྱྲླྴྵྶྷྸྐྵྺྻྼ]
+##[ༀ༁༂༃༄༅༆༇༈༉༊་༌།༎༏༐༑༒༓༔༕༖༗༘༙༚༛༜༝༞༟༠༡༢༣༤༥༦༧༨༩༪༫༬༭༮༯༰༱༲༳༴༵༶༷༸༹༺༻༼༽༾༿]
+##[྾྿࿀࿁࿂࿃࿄࿅࿆࿇࿈࿉࿊࿋࿌࿎࿏࿐࿑࿒࿓࿔࿕࿖࿗࿘࿙࿚]
+##[ཀཁགགྷངཅཆཇ཈ཉཊཋཌཌྷཎཏཐདདྷནཔཕབབྷམཙཚཛཛྷཝཞཟའཡརལཤཥསཧཨཀྵཪཫཬཱཱཱིིུུྲྀཷླྀཹེཻོཽཾཿ྄ཱྀྀྂྃ྅྆྇ྈྉྊྋྌྍྎྏྐྑྒྒྷྔྕྖྗྙྚྛྜྜྷྞྟྠྡྡྷྣྤྥྦྦྷྨྩྪྫྫྷྭྮྯྰྱྲླྴྵྶྷྸྐྵྺྻྼ]
+
+#[]
+---
+name: tibetan
+version: "tibetan 0.1"
+sort: original
+#import_tables:
+#已在table_translator中啟用  - tibetan_words1
+#  - tibetan.words2
+...
+
+༠	0
+༡	1
+༢	2
+༣	3
+༤	4
+༥	5
+༦	6
+༧	7
+༨	8
+༩	9
+༪	/1
+༫	/2
+༬	/3
+༭	/4
+༮	/5
+༯	/6
+༰	/7
+༱	/8
+༲	/9
+༳	/0
+
+༄	//1
+༅	//2
+༄༅	//3
+
+ཪ	//r
+ༀ	/om
+༁	/;a
+༂	//'
+༃	//'
+༌	/f
+༏	/\1
+༐	/\2
+༑	/\3
+༈	/\
+༒	/\
+༆	/\
+༇	/\
+༙	/\
+༓	//o
+༔	//h
+༚	//o
+༛	//o
+༜	//o
+༝	//x
+༞	//x
+༟	//x
+༼	//k
+༽	//k
+༾	//k
+༿	//k
+༵	//
+༷	//
+༹	//
+༸	//
+྅	//
+༺	//
+༻	//
+༉	//
+༊	//
+༴	//
+༶	//
+
+྆	//
+྇	//
+ྈ	//
+ྉ	//
+ྊ	//
+ྋ	//
+༕	//
+༖	//
+༗	//
+༘	//
+
+ཾ	.m
+ཿ	.h
+ྃ	..m
+ྂ	.;m
+྄	./
+
+
+##	a
+་	f
+།	,
+ི	i
+ུ	u
+ེ	e
+ོ	o
+
+༎	.,
+ཱ	.a
+ཱི	.i
+ཱུ	.u
+ཻ	ai
+ཽ	au
+ྲྀ	.r
+ླྀ	.l
+ྀ	.v
+#ཻ	.e
+#ཽ	.o
+#ཱི	.ai
+#ཱུ	.au
+#ཱེ	.ae
+#ཱོ	.ao
+
+ཷ	..r
+ཹ	..l
+ཱྀ	..v
+
+ངས	ng;s
+མས	m;s
+ནད	n;d
+#
+གས	g;s
+བས	b;s
+#
+རད	r;d
+ལད	l;d
+#
+ངས	ngs
+མས	ms
+ནད	nd
+
+གས	gs
+བས	bs
+གས་	gsf
+བས་	bsf
+གས།	gs,
+བས།	bs,
+
+གངས	gngs
+######sanskrit00###
+ཀ	k
+ཁ	kh
+ག	g
+གྷ	gh
+ང	ng
+ཅ	c
+ཆ	ch
+ཇ	j
+ཉ	ny
+ཊ	.t
+ཋ	.th
+ཌ	.d
+ཌྷ	.dh
+ཎ	.n
+ཏ	t
+ཐ	th
+ད	d
+དྷ	dh
+ན	n
+པ	p
+ཕ	ph
+བ	b
+བྷ	bh
+མ	m
+ཙ	ts
+ཚ	tsh
+ཛ	dz
+ཛྷ	dzh
+ཝ	w
+ཞ	q
+ཟ	z
+འ	'
+ཡ	y
+ར	r
+ལ	l
+ཤ	x
+ཥ	.s
+ས	s
+ཧ	h
+ཨ	A
+ཀྵ	k.s
+ཨ	\
+#ཀྵ	.ks
+
+ྐ	/k
+ྑ	/kh
+ྒ	/g
+ྒྷ	/gh
+ྔ	/ng
+ྕ	/c
+ྖ	/ch
+ྗ	/j
+ྙ	/ny
+ྚ	/.t
+ྛ	/.th
+ྜ	/.d
+ྜྷ	/.dh
+ྞ	/.n
+ྟ	/t
+ྠ	/th
+ྡ	/d
+ྡྷ	/dh
+ྣ	/n
+ྤ	/p
+ྥ	/ph
+ྦ	/b
+ྦྷ	/bh
+ྨ	/m
+ྩ	/ts
+ྪ	/tsh
+ྫ	/dz
+ྫྷ	/dzh
+ྭ	/w
+ྮ	/q
+ྯ	/z
+ྰ	/'
+ྱ	/y
+ྲ	/r
+ླ	/l
+ྴ	/x
+ྵ	/.s
+ྶ	/s
+ྷ	/h
+ྸ	/A
+ྐྵ	/k.s
+ྸ	/\
+
+འ	v
+ྰ	/v
+ྺ	/;w
+ྻ	/;y
+ྼ	/;r
+
+######sanskrit00a###
+
+ཀ	ka
+ཀི	ki
+ཀུ	ku
+ཀེ	ke
+ཀོ	ko
+
+ཁ	kha
+ཁི	khi
+ཁུ	khu
+ཁེ	khe
+ཁོ	kho
+
+ག	ga
+གི	gi
+གུ	gu
+གེ	ge
+གོ	go
+
+གྷ	gha
+གྷི	ghi
+གྷུ	ghu
+གྷེ	ghe
+གྷོ	gho
+
+ང	nga
+ངི	ngi
+ངུ	ngu
+ངེ	nge
+ངོ	ngo
+
+ཅ	ca
+ཅི	ci
+ཅུ	cu
+ཅེ	ce
+ཅོ	co
+
+ཆ	cha
+ཆི	chi
+ཆུ	chu
+ཆེ	che
+ཆོ	cho
+
+ཇ	ja
+ཇི	ji
+ཇུ	ju
+ཇེ	je
+ཇོ	jo
+
+ཉ	nya
+ཉི	nyi
+ཉུ	nyu
+ཉེ	nye
+ཉོ	nyo
+
+ཊ	.ta
+ཊི	.ti
+ཊུ	.tu
+ཊེ	.te
+ཊོ	.to
+
+ཋ	.tha
+ཋི	.thi
+ཋུ	.thu
+ཋེ	.the
+ཋོ	.tho
+
+ཌ	.da
+ཌི	.di
+ཌུ	.du
+ཌེ	.de
+ཌོ	.do
+
+ཌྷ	.dha
+ཌྷི	.dhi
+ཌྷུ	.dhu
+ཌྷེ	.dhe
+ཌྷོ	.dho
+
+ཎ	.na
+ཎི	.ni
+ཎུ	.nu
+ཎེ	.ne
+ཎོ	.no
+
+ཏ	ta
+ཏི	ti
+ཏུ	tu
+ཏེ	te
+ཏོ	to
+
+ཐ	tha
+ཐི	thi
+ཐུ	thu
+ཐེ	the
+ཐོ	tho
+
+ད	da
+དི	di
+དུ	du
+དེ	de
+དོ	do
+
+དྷ	dha
+དྷི	dhi
+དྷུ	dhu
+དྷེ	dhe
+དྷོ	dho
+
+ན	na
+ནི	ni
+ནུ	nu
+ནེ	ne
+ནོ	no
+
+པ	pa
+པི	pi
+པུ	pu
+པེ	pe
+པོ	po
+
+ཕ	pha
+ཕི	phi
+ཕུ	phu
+ཕེ	phe
+ཕོ	pho
+
+བ	ba
+བི	bi
+བུ	bu
+བེ	be
+བོ	bo
+
+བྷ	bha
+བྷི	bhi
+བྷུ	bhu
+བྷེ	bhe
+བྷོ	bho
+
+མ	ma
+མི	mi
+མུ	mu
+མེ	me
+མོ	mo
+
+ཙ	tsa
+ཙི	tsi
+ཙུ	tsu
+ཙེ	tse
+ཙོ	tso
+
+ཚ	tsha
+ཚི	tshi
+ཚུ	tshu
+ཚེ	tshe
+ཚོ	tsho
+
+ཛ	dza
+ཛི	dzi
+ཛུ	dzu
+ཛེ	dze
+ཛོ	dzo
+
+ཛྷ	dzha
+ཛྷི	dzhi
+ཛྷུ	dzhu
+ཛྷེ	dzhe
+ཛྷོ	dzho
+
+ཝ	wa
+ཝི	wi
+ཝུ	wu
+ཝེ	we
+ཝོ	wo
+
+ཞ	qa
+ཞི	qi
+ཞུ	qu
+ཞེ	qe
+ཞོ	qo
+
+ཟ	za
+ཟི	zi
+ཟུ	zu
+ཟེ	ze
+ཟོ	zo
+
+འ	'a
+འི	'i
+འུ	'u
+འེ	'e
+འོ	'o
+
+ཡ	ya
+ཡི	yi
+ཡུ	yu
+ཡེ	ye
+ཡོ	yo
+
+ར	ra
+རི	ri
+རུ	ru
+རེ	re
+རོ	ro
+
+ལ	la
+ལི	li
+ལུ	lu
+ལེ	le
+ལོ	lo
+
+ཤ	xa
+ཤི	xi
+ཤུ	xu
+ཤེ	xe
+ཤོ	xo
+
+ཥ	.sa
+ཥི	.si
+ཥུ	.su
+ཥེ	.se
+ཥོ	.so
+
+ས	sa
+སི	si
+སུ	su
+སེ	se
+སོ	so
+
+ཧ	ha
+ཧི	hi
+ཧུ	hu
+ཧེ	he
+ཧོ	ho
+
+ཨ	Aa
+ཨི	Ai
+ཨུ	Au
+ཨེ	Ae
+ཨོ	Ao
+
+ཀྵ	k.sa
+ཀྵི	k.si
+ཀྵུ	k.su
+ཀྵེ	k.se
+ཀྵོ	k.so
+
+
+ྐ	/ka
+ྐི	/ki
+ྐུ	/ku
+ྐེ	/ke
+ྐོ	/ko
+
+ྑ	/kha
+ྑི	/khi
+ྑུ	/khu
+ྑེ	/khe
+ྑོ	/kho
+
+ྒ	/ga
+ྒི	/gi
+ྒུ	/gu
+ྒེ	/ge
+ྒོ	/go
+
+ྒྷ	/gha
+ྒྷི	/ghi
+ྒྷུ	/ghu
+ྒྷེ	/ghe
+ྒྷོ	/gho
+
+ྔ	/nga
+ྔི	/ngi
+ྔུ	/ngu
+ྔེ	/nge
+ྔོ	/ngo
+
+ྕ	/ca
+ྕི	/ci
+ྕུ	/cu
+ྕེ	/ce
+ྕོ	/co
+
+ྖ	/cha
+ྖི	/chi
+ྖུ	/chu
+ྖེ	/che
+ྖོ	/cho
+
+ྗ	/ja
+ྗི	/ji
+ྗུ	/ju
+ྗེ	/je
+ྗོ	/jo
+
+ྙ	/nya
+ྙི	/nyi
+ྙུ	/nyu
+ྙེ	/nye
+ྙོ	/nyo
+
+ྚ	/.ta
+ྚི	/.ti
+ྚུ	/.tu
+ྚེ	/.te
+ྚོ	/.to
+
+ྛ	/.tha
+ྛི	/.thi
+ྛུ	/.thu
+ྛེ	/.the
+ྛོ	/.tho
+
+ྜ	/.da
+ྜི	/.di
+ྜུ	/.du
+ྜེ	/.de
+ྜོ	/.do
+
+ྜྷ	/.dha
+ྜྷི	/.dhi
+ྜྷུ	/.dhu
+ྜྷེ	/.dhe
+ྜྷོ	/.dho
+
+ྞ	/.na
+ྞི	/.ni
+ྞུ	/.nu
+ྞེ	/.ne
+ྞོ	/.no
+
+ྟ	/ta
+ྟི	/ti
+ྟུ	/tu
+ྟེ	/te
+ྟོ	/to
+
+ྠ	/tha
+ྠི	/thi
+ྠུ	/thu
+ྠེ	/the
+ྠོ	/tho
+
+ྡ	/da
+ྡི	/di
+ྡུ	/du
+ྡེ	/de
+ྡོ	/do
+
+ྡྷ	/dha
+ྡྷི	/dhi
+ྡྷུ	/dhu
+ྡྷེ	/dhe
+ྡྷོ	/dho
+
+ྣ	/na
+ྣི	/ni
+ྣུ	/nu
+ྣེ	/ne
+ྣོ	/no
+
+ྤ	/pa
+ྤི	/pi
+ྤུ	/pu
+ྤེ	/pe
+ྤོ	/po
+
+ྥ	/pha
+ྥི	/phi
+ྥུ	/phu
+ྥེ	/phe
+ྥོ	/pho
+
+ྦ	/ba
+ྦི	/bi
+ྦུ	/bu
+ྦེ	/be
+ྦོ	/bo
+
+ྦྷ	/bha
+ྦྷི	/bhi
+ྦྷུ	/bhu
+ྦྷེ	/bhe
+ྦྷོ	/bho
+
+ྨ	/ma
+ྨི	/mi
+ྨུ	/mu
+ྨེ	/me
+ྨོ	/mo
+
+ྩ	/tsa
+ྩི	/tsi
+ྩུ	/tsu
+ྩེ	/tse
+ྩོ	/tso
+
+ྪ	/tsha
+ྪི	/tshi
+ྪུ	/tshu
+ྪེ	/tshe
+ྪོ	/tsho
+
+ྫ	/dza
+ྫི	/dzi
+ྫུ	/dzu
+ྫེ	/dze
+ྫོ	/dzo
+
+ྫྷ	/dzha
+ྫྷི	/dzhi
+ྫྷུ	/dzhu
+ྫྷེ	/dzhe
+ྫྷོ	/dzho
+
+ྭ	/wa
+ྭི	/wi
+ྭུ	/wu
+ྭེ	/we
+ྭོ	/wo
+
+ྮ	/qa
+ྮི	/qi
+ྮུ	/qu
+ྮེ	/qe
+ྮོ	/qo
+
+ྯ	/za
+ྯི	/zi
+ྯུ	/zu
+ྯེ	/ze
+ྯོ	/zo
+
+ྰ	/'a
+ྰི	/'i
+ྰུ	/'u
+ྰེ	/'e
+ྰོ	/'o
+
+ྱ	/ya
+ྱི	/yi
+ྱུ	/yu
+ྱེ	/ye
+ྱོ	/yo
+
+ྲ	/ra
+ྲི	/ri
+ྲུ	/ru
+ྲེ	/re
+ྲོ	/ro
+
+ླ	/la
+ླི	/li
+ླུ	/lu
+ླེ	/le
+ློ	/lo
+
+ྴ	/xa
+ྴི	/xi
+ྴུ	/xu
+ྴེ	/xe
+ྴོ	/xo
+
+ྵ	/.sa
+ྵི	/.si
+ྵུ	/.su
+ྵེ	/.se
+ྵོ	/.so
+
+ྶ	/sa
+ྶི	/si
+ྶུ	/su
+ྶེ	/se
+ྶོ	/so
+
+ྷ	/ha
+ྷི	/hi
+ྷུ	/hu
+ྷེ	/he
+ྷོ	/ho
+
+ྸ	/Aa
+ྸི	/Ai
+ྸུ	/Au
+ྸེ	/Ae
+ྸོ	/Ao
+
+ྐྵ	/k.sa
+ྐྵི	/k.si
+ྐྵུ	/k.su
+ྐྵེ	/k.se
+ྐྵོ	/k.so
+
+
+འ	va
+འི	vi
+འུ	vu
+འེ	ve
+འོ	vo
+
+ྰ	/va
+ྰི	/vi
+ྰུ	/vu
+ྰེ	/ve
+ྰོ	/vo
+
+ྺ	/;wa
+ྺི	/;wi
+ྺུ	/;wu
+ྺེ	/;we
+ྺོ	/;wo
+
+ྻ	/;ya
+ྻི	/;yi
+ྻུ	/;yu
+ྻེ	/;ye
+ྻོ	/;yo
+
+ྼ	/;ra
+ྼི	/;ri
+ྼུ	/;ru
+ྼེ	/;re
+ྼོ	/;ro
+
+
+
+####tibetan01####無前加字#
+
+ཀྱ	ky
+ཁྱ	khy
+གྱ	gy
+པྱ	py
+ཕྱ	phy
+བྱ	by
+མྱ	my
+ཀྲ	kr
+ཁྲ	khr
+གྲ	gr
+དྲ	dr
+པྲ	pr
+ཕྲ	phr
+བྲ	br
+མྲ	mr
+སྲ	sr
+ཧྲ	hr
+ཀླ	kl
+གླ	gl
+བླ	bl
+ཟླ	zl
+རླ	rl
+སླ	sl
+ཀྭ	kw
+ཁྭ	khw
+གྭ	gw
+ཉྭ	nyw
+དྭ	dw
+ཚྭ	tshw
+ཞྭ	qw
+ཟྭ	zw
+རྭ	rw
+ལྭ	lw
+ཤྭ	xw
+ཧྭ	hw
+རྐ	rk
+རྒ	rg
+རྔ	rng
+རྗ	rj
+རྙ	rny
+རྟ	rt
+རྡ	rd
+རྣ	rn
+རྦ	rb
+རྨ	rm
+རྩ	rts
+རྫ	rdz
+ལྐ	lk
+ལྒ	lg
+ལྔ	lng
+ལྕ	lc
+ལྗ	lj
+ལྟ	lt
+ལྡ	ld
+ལྤ	lp
+ལྦ	lb
+ལྷ	lh
+སྐ	sk
+སྒ	sg
+སྔ	sng
+སྙ	sny
+སྟ	st
+སྡ	sd
+སྣ	sn
+སྤ	sp
+སྦ	sb
+སྨ	sm
+སྩ	sts
+རྐྱ	rky
+རྒྱ	rgy
+རྨྱ	rmy
+སྐྱ	sky
+སྒྱ	sgy
+སྤྱ	spy
+སྦྱ	sby
+སྨྱ	smy
+སྐྲ	skr
+སྒྲ	sgr
+སྤྲ	spr
+སྦྲ	sbr
+སྨྲ	smr
+རྩྭ	rtsw
+ཕྱྭ	phyw
+གྲྭ	grw
+ཧྥ	hph
+ཏྲ	tr
+ཐྲ	thr
+སྣྲ	snr
+ཙྭ	tsw
+སྭ	sw
+ཧྱ	hy
+ལྩ	lts
+
+####tibetan01a#####
+ཀྱ	kya
+ཀྱི	kyi
+ཀྱུ	kyu
+ཀྱེ	kye
+ཀྱོ	kyo
+
+ཁྱ	khya
+ཁྱི	khyi
+ཁྱུ	khyu
+ཁྱེ	khye
+ཁྱོ	khyo
+
+གྱ	gya
+གྱི	gyi
+གྱུ	gyu
+གྱེ	gye
+གྱོ	gyo
+
+པྱ	pya
+པྱི	pyi
+པྱུ	pyu
+པྱེ	pye
+པྱོ	pyo
+
+ཕྱ	phya
+ཕྱི	phyi
+ཕྱུ	phyu
+ཕྱེ	phye
+ཕྱོ	phyo
+
+བྱ	bya
+བྱི	byi
+བྱུ	byu
+བྱེ	bye
+བྱོ	byo
+
+མྱ	mya
+མྱི	myi
+མྱུ	myu
+མྱེ	mye
+མྱོ	myo
+
+ཀྲ	kra
+ཀྲི	kri
+ཀྲུ	kru
+ཀྲེ	kre
+ཀྲོ	kro
+
+ཁྲ	khra
+ཁྲི	khri
+ཁྲུ	khru
+ཁྲེ	khre
+ཁྲོ	khro
+
+གྲ	gra
+གྲི	gri
+གྲུ	gru
+གྲེ	gre
+གྲོ	gro
+
+དྲ	dra
+དྲི	dri
+དྲུ	dru
+དྲེ	dre
+དྲོ	dro
+
+པྲ	pra
+པྲི	pri
+པྲུ	pru
+པྲེ	pre
+པྲོ	pro
+
+ཕྲ	phra
+ཕྲི	phri
+ཕྲུ	phru
+ཕྲེ	phre
+ཕྲོ	phro
+
+བྲ	bra
+བྲི	bri
+བྲུ	bru
+བྲེ	bre
+བྲོ	bro
+
+མྲ	mra
+མྲི	mri
+མྲུ	mru
+མྲེ	mre
+མྲོ	mro
+
+སྲ	sra
+སྲི	sri
+སྲུ	sru
+སྲེ	sre
+སྲོ	sro
+
+ཧྲ	hra
+ཧྲི	hri
+ཧྲུ	hru
+ཧྲེ	hre
+ཧྲོ	hro
+
+ཀླ	kla
+ཀླི	kli
+ཀླུ	klu
+ཀླེ	kle
+ཀློ	klo
+
+གླ	gla
+གླི	gli
+གླུ	glu
+གླེ	gle
+གློ	glo
+
+བླ	bla
+བླི	bli
+བླུ	blu
+བླེ	ble
+བློ	blo
+
+ཟླ	zla
+ཟླི	zli
+ཟླུ	zlu
+ཟླེ	zle
+ཟློ	zlo
+
+རླ	rla
+རླི	rli
+རླུ	rlu
+རླེ	rle
+རློ	rlo
+
+སླ	sla
+སླི	sli
+སླུ	slu
+སླེ	sle
+སློ	slo
+
+ཀྭ	kwa
+ཀྭི	kwi
+ཀྭུ	kwu
+ཀྭེ	kwe
+ཀྭོ	kwo
+
+ཁྭ	khwa
+ཁྭི	khwi
+ཁྭུ	khwu
+ཁྭེ	khwe
+ཁྭོ	khwo
+
+གྭ	gwa
+གྭི	gwi
+གྭུ	gwu
+གྭེ	gwe
+གྭོ	gwo
+
+ཉྭ	nywa
+ཉྭི	nywi
+ཉྭུ	nywu
+ཉྭེ	nywe
+ཉྭོ	nywo
+
+དྭ	dwa
+དྭི	dwi
+དྭུ	dwu
+དྭེ	dwe
+དྭོ	dwo
+
+ཚྭ	tshwa
+ཚྭི	tshwi
+ཚྭུ	tshwu
+ཚྭེ	tshwe
+ཚྭོ	tshwo
+
+ཞྭ	qwa
+ཞྭི	qwi
+ཞྭུ	qwu
+ཞྭེ	qwe
+ཞྭོ	qwo
+
+ཟྭ	zwa
+ཟྭི	zwi
+ཟྭུ	zwu
+ཟྭེ	zwe
+ཟྭོ	zwo
+
+རྭ	rwa
+རྭི	rwi
+རྭུ	rwu
+རྭེ	rwe
+རྭོ	rwo
+
+ལྭ	lwa
+ལྭི	lwi
+ལྭུ	lwu
+ལྭེ	lwe
+ལྭོ	lwo
+
+ཤྭ	xwa
+ཤྭི	xwi
+ཤྭུ	xwu
+ཤྭེ	xwe
+ཤྭོ	xwo
+
+ཧྭ	hwa
+ཧྭི	hwi
+ཧྭུ	hwu
+ཧྭེ	hwe
+ཧྭོ	hwo
+
+རྐ	rka
+རྐི	rki
+རྐུ	rku
+རྐེ	rke
+རྐོ	rko
+
+རྒ	rga
+རྒི	rgi
+རྒུ	rgu
+རྒེ	rge
+རྒོ	rgo
+
+རྔ	rnga
+རྔི	rngi
+རྔུ	rngu
+རྔེ	rnge
+རྔོ	rngo
+
+རྗ	rja
+རྗི	rji
+རྗུ	rju
+རྗེ	rje
+རྗོ	rjo
+
+རྙ	rnya
+རྙི	rnyi
+རྙུ	rnyu
+རྙེ	rnye
+རྙོ	rnyo
+
+རྟ	rta
+རྟི	rti
+རྟུ	rtu
+རྟེ	rte
+རྟོ	rto
+
+རྡ	rda
+རྡི	rdi
+རྡུ	rdu
+རྡེ	rde
+རྡོ	rdo
+
+རྣ	rna
+རྣི	rni
+རྣུ	rnu
+རྣེ	rne
+རྣོ	rno
+
+རྦ	rba
+རྦི	rbi
+རྦུ	rbu
+རྦེ	rbe
+རྦོ	rbo
+
+རྨ	rma
+རྨི	rmi
+རྨུ	rmu
+རྨེ	rme
+རྨོ	rmo
+
+རྩ	rtsa
+རྩི	rtsi
+རྩུ	rtsu
+རྩེ	rtse
+རྩོ	rtso
+
+རྫ	rdza
+རྫི	rdzi
+རྫུ	rdzu
+རྫེ	rdze
+རྫོ	rdzo
+
+ལྐ	lka
+ལྐི	lki
+ལྐུ	lku
+ལྐེ	lke
+ལྐོ	lko
+
+ལྒ	lga
+ལྒི	lgi
+ལྒུ	lgu
+ལྒེ	lge
+ལྒོ	lgo
+
+ལྔ	lnga
+ལྔི	lngi
+ལྔུ	lngu
+ལྔེ	lnge
+ལྔོ	lngo
+
+ལྕ	lca
+ལྕི	lci
+ལྕུ	lcu
+ལྕེ	lce
+ལྕོ	lco
+
+ལྗ	lja
+ལྗི	lji
+ལྗུ	lju
+ལྗེ	lje
+ལྗོ	ljo
+
+ལྟ	lta
+ལྟི	lti
+ལྟུ	ltu
+ལྟེ	lte
+ལྟོ	lto
+
+ལྡ	lda
+ལྡི	ldi
+ལྡུ	ldu
+ལྡེ	lde
+ལྡོ	ldo
+
+ལྤ	lpa
+ལྤི	lpi
+ལྤུ	lpu
+ལྤེ	lpe
+ལྤོ	lpo
+
+ལྦ	lba
+ལྦི	lbi
+ལྦུ	lbu
+ལྦེ	lbe
+ལྦོ	lbo
+
+ལྷ	lha
+ལྷི	lhi
+ལྷུ	lhu
+ལྷེ	lhe
+ལྷོ	lho
+
+སྐ	ska
+སྐི	ski
+སྐུ	sku
+སྐེ	ske
+སྐོ	sko
+
+སྒ	sga
+སྒི	sgi
+སྒུ	sgu
+སྒེ	sge
+སྒོ	sgo
+
+སྔ	snga
+སྔི	sngi
+སྔུ	sngu
+སྔེ	snge
+སྔོ	sngo
+
+སྙ	snya
+སྙི	snyi
+སྙུ	snyu
+སྙེ	snye
+སྙོ	snyo
+
+སྟ	sta
+སྟི	sti
+སྟུ	stu
+སྟེ	ste
+སྟོ	sto
+
+སྡ	sda
+སྡི	sdi
+སྡུ	sdu
+སྡེ	sde
+སྡོ	sdo
+
+སྣ	sna
+སྣི	sni
+སྣུ	snu
+སྣེ	sne
+སྣོ	sno
+
+སྤ	spa
+སྤི	spi
+སྤུ	spu
+སྤེ	spe
+སྤོ	spo
+
+སྦ	sba
+སྦི	sbi
+སྦུ	sbu
+སྦེ	sbe
+སྦོ	sbo
+
+སྨ	sma
+སྨི	smi
+སྨུ	smu
+སྨེ	sme
+སྨོ	smo
+
+སྩ	stsa
+སྩི	stsi
+སྩུ	stsu
+སྩེ	stse
+སྩོ	stso
+
+རྐྱ	rkya
+རྐྱི	rkyi
+རྐྱུ	rkyu
+རྐྱེ	rkye
+རྐྱོ	rkyo
+
+རྒྱ	rgya
+རྒྱི	rgyi
+རྒྱུ	rgyu
+རྒྱེ	rgye
+རྒྱོ	rgyo
+
+རྨྱ	rmya
+རྨྱི	rmyi
+རྨྱུ	rmyu
+རྨྱེ	rmye
+རྨྱོ	rmyo
+
+སྐྱ	skya
+སྐྱི	skyi
+སྐྱུ	skyu
+སྐྱེ	skye
+སྐྱོ	skyo
+
+སྒྱ	sgya
+སྒྱི	sgyi
+སྒྱུ	sgyu
+སྒྱེ	sgye
+སྒྱོ	sgyo
+
+སྤྱ	spya
+སྤྱི	spyi
+སྤྱུ	spyu
+སྤྱེ	spye
+སྤྱོ	spyo
+
+སྦྱ	sbya
+སྦྱི	sbyi
+སྦྱུ	sbyu
+སྦྱེ	sbye
+སྦྱོ	sbyo
+
+སྨྱ	smya
+སྨྱི	smyi
+སྨྱུ	smyu
+སྨྱེ	smye
+སྨྱོ	smyo
+
+སྐྲ	skra
+སྐྲི	skri
+སྐྲུ	skru
+སྐྲེ	skre
+སྐྲོ	skro
+
+སྒྲ	sgra
+སྒྲི	sgri
+སྒྲུ	sgru
+སྒྲེ	sgre
+སྒྲོ	sgro
+
+སྤྲ	spra
+སྤྲི	spri
+སྤྲུ	spru
+སྤྲེ	spre
+སྤྲོ	spro
+
+སྦྲ	sbra
+སྦྲི	sbri
+སྦྲུ	sbru
+སྦྲེ	sbre
+སྦྲོ	sbro
+
+སྨྲ	smra
+སྨྲི	smri
+སྨྲུ	smru
+སྨྲེ	smre
+སྨྲོ	smro
+
+རྩྭ	rtswa
+རྩྭི	rtswi
+རྩྭུ	rtswu
+རྩྭེ	rtswe
+རྩྭོ	rtswo
+
+ཕྱྭ	phywa
+ཕྱྭི	phywi
+ཕྱྭུ	phywu
+ཕྱྭེ	phywe
+ཕྱྭོ	phywo
+
+གྲྭ	grwa
+གྲྭི	grwi
+གྲྭུ	grwu
+གྲྭེ	grwe
+གྲྭོ	grwo
+
+ཧྥ	hpha
+ཧྥི	hphi
+ཧྥུ	hphu
+ཧྥེ	hphe
+ཧྥོ	hpho
+
+ཏྲ	tra
+ཏྲི	tri
+ཏྲུ	tru
+ཏྲེ	tre
+ཏྲོ	tro
+
+ཐྲ	thra
+ཐྲི	thri
+ཐྲུ	thru
+ཐྲེ	thre
+ཐྲོ	thro
+
+སྣྲ	snra
+སྣྲི	snri
+སྣྲུ	snru
+སྣྲེ	snre
+སྣྲོ	snro
+
+ཙྭ	tswa
+ཙྭི	tswi
+ཙྭུ	tswu
+ཙྭེ	tswe
+ཙྭོ	tswo
+
+སྭ	swa
+སྭི	swi
+སྭུ	swu
+སྭེ	swe
+སྭོ	swo
+
+ཧྱ	hya
+ཧྱི	hyi
+ཧྱུ	hyu
+ཧྱེ	hye
+ཧྱོ	hyo
+
+ལྩ	ltsa
+ལྩི	ltsi
+ལྩུ	ltsu
+ལྩེ	ltse
+ལྩོ	ltso
+
+#####tibetan02###有前加字#
+##有前加字#無上下加字#གཡ	gy
+གཡ	g;y
+
+གཅ	gc
+གཉ	gny
+གཏ	gt
+གད	gd
+གན	gn
+གཙ	gts
+གཞ	gq
+གཟ	gz
+གཤ	gx
+གས	gs
+དཀ	dk
+དག	dg
+དང	dng
+དཔ	dp
+དབ	db
+དམ	dm
+བཀ	bk
+བག	bg
+བཅ	bc
+བཏ	bt
+བད	bd
+བཙ	bts
+བཞ	bq
+བཟ	bz
+བཤ	bx
+བས	bs
+མཁ	mkh
+མག	mg
+མང	mng
+མཆ	mch
+མཇ	mj
+མཉ	mny
+མཐ	mth
+མད	md
+མན	mn
+མཚ	mtsh
+མཛ	mdz
+འཁ	'kh
+འག	'g
+འཆ	'ch
+འཇ	'j
+འཐ	'th
+འད	'd
+འཕ	'ph
+འབ	'b
+འཚ	'tsh
+འཛ	'dz
+##འ
+འཁ	vkh
+འག	vg
+འཆ	vch
+འཇ	vj
+འཐ	vth
+འད	vd
+འཕ	vph
+འབ	vb
+འཚ	vtsh
+འཛ	vdz
+###有前加字#及上下加字##
+དཀྱ	dky
+དགྱ	dgy
+དཔྱ	dpy
+དབྱ	dby
+དམྱ	dmy
+མཁྱ	mkhy
+མགྱ	mgy
+འཁྱ	'khy
+འགྱ	'gy
+འཕྱ	'phy
+འབྱ	'by
+བཀྱ	bky
+བགྱ	bgy
+དཀྲ	dkr
+དགྲ	dgr
+དཔྲ	dpr
+དབྲ	dbr
+མཁྲ	mkhr
+མགྲ	mgr
+བཀྲ	bkr
+བགྲ	bgr
+བསྲ	bsr
+འཁྲ	'khr
+འགྲ	'gr
+འདྲ	'dr
+འཕྲ	'phr
+འབྲ	'br
+བཀླ	bkl
+བགླ	bgl
+བཟླ	bzl
+བརླ	brl
+བསླ	bsl
+བརྐ	brk
+བརྒ	brg
+བརྔ	brng
+བརྗ	brj
+བརྙ	brny
+བརྟ	brt
+བརྡ	brd
+བརྣ	brn
+བརྩ	brts
+བརྫ	brdz
+བལྟ	blt
+བལྡ	bld
+བསྐ	bsk
+བསྒ	bsg
+བསྔ	bsng
+བསྙ	bsny
+བསྟ	bst
+བསྡ	bsd
+བསྣ	bsn
+བསྩ	bsts
+བརྐྱ	brky
+བརྒྱ	brgy
+བསྐྱ	bsky
+བསྒྱ	bsgy
+བསྐྲ	bskr
+བསྒྲ	bsgr
+བསྭ	bsw
+
+###འ
+འཁྱ	vkhy
+འགྱ	vgy
+འཕྱ	vphy
+འབྱ	vby
+འཁྲ	vkhr
+འགྲ	vgr
+འདྲ	vdr
+འཕྲ	vphr
+འབྲ	vbr
+
+####tibetan02a#####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##
+གཡ	g;ya
+གཡི	g;yi
+གཡུ	g;yu
+གཡེ	g;ye
+གཡོ	g;yo
+
+གཅ	gca
+གཅི	gci
+གཅུ	gcu
+གཅེ	gce
+གཅོ	gco
+
+གཉ	gnya
+གཉི	gnyi
+གཉུ	gnyu
+གཉེ	gnye
+གཉོ	gnyo
+
+གཏ	gta
+གཏི	gti
+གཏུ	gtu
+གཏེ	gte
+གཏོ	gto
+
+གད	gda
+གདི	gdi
+གདུ	gdu
+གདེ	gde
+གདོ	gdo
+
+གན	gna
+གནི	gni
+གནུ	gnu
+གནེ	gne
+གནོ	gno
+
+གཙ	gtsa
+གཙི	gtsi
+གཙུ	gtsu
+གཙེ	gtse
+གཙོ	gtso
+
+གཞ	gqa
+གཞི	gqi
+གཞུ	gqu
+གཞེ	gqe
+གཞོ	gqo
+
+གཟ	gza
+གཟི	gzi
+གཟུ	gzu
+གཟེ	gze
+གཟོ	gzo
+
+གཤ	gxa
+གཤི	gxi
+གཤུ	gxu
+གཤེ	gxe
+གཤོ	gxo
+
+གས	gsa
+གསི	gsi
+གསུ	gsu
+གསེ	gse
+གསོ	gso
+
+དཀ	dka
+དཀི	dki
+དཀུ	dku
+དཀེ	dke
+དཀོ	dko
+
+དག	dga
+དགི	dgi
+དགུ	dgu
+དགེ	dge
+དགོ	dgo
+
+དང	dnga
+དངི	dngi
+དངུ	dngu
+དངེ	dnge
+དངོ	dngo
+
+དཔ	dpa
+དཔི	dpi
+དཔུ	dpu
+དཔེ	dpe
+དཔོ	dpo
+
+དབ	dba
+དབི	dbi
+དབུ	dbu
+དབེ	dbe
+དབོ	dbo
+
+དམ	dma
+དམི	dmi
+དམུ	dmu
+དམེ	dme
+དམོ	dmo
+
+དཀྱ	dkya
+དཀྱི	dkyi
+དཀྱུ	dkyu
+དཀྱེ	dkye
+དཀྱོ	dkyo
+
+དགྱ	dgya
+དགྱི	dgyi
+དགྱུ	dgyu
+དགྱེ	dgye
+དགྱོ	dgyo
+
+དཔྱ	dpya
+དཔྱི	dpyi
+དཔྱུ	dpyu
+དཔྱེ	dpye
+དཔྱོ	dpyo
+
+དབྱ	dbya
+དབྱི	dbyi
+དབྱུ	dbyu
+དབྱེ	dbye
+དབྱོ	dbyo
+
+དམྱ	dmya
+དམྱི	dmyi
+དམྱུ	dmyu
+དམྱེ	dmye
+དམྱོ	dmyo
+
+བཀ	bka
+བཀི	bki
+བཀུ	bku
+བཀེ	bke
+བཀོ	bko
+
+བག	bga
+བགི	bgi
+བགུ	bgu
+བགེ	bge
+བགོ	bgo
+
+བཅ	bca
+བཅི	bci
+བཅུ	bcu
+བཅེ	bce
+བཅོ	bco
+
+བཏ	bta
+བཏི	bti
+བཏུ	btu
+བཏེ	bte
+བཏོ	bto
+
+བད	bda
+བདི	bdi
+བདུ	bdu
+བདེ	bde
+བདོ	bdo
+
+བཙ	btsa
+བཙི	btsi
+བཙུ	btsu
+བཙེ	btse
+བཙོ	btso
+
+བཞ	bqa
+བཞི	bqi
+བཞུ	bqu
+བཞེ	bqe
+བཞོ	bqo
+
+བཟ	bza
+བཟི	bzi
+བཟུ	bzu
+བཟེ	bze
+བཟོ	bzo
+
+བཤ	bxa
+བཤི	bxi
+བཤུ	bxu
+བཤེ	bxe
+བཤོ	bxo
+
+བས	bsa
+བསི	bsi
+བསུ	bsu
+བསེ	bse
+བསོ	bso
+
+མཁ	mkha
+མཁི	mkhi
+མཁུ	mkhu
+མཁེ	mkhe
+མཁོ	mkho
+
+མག	mga
+མགི	mgi
+མགུ	mgu
+མགེ	mge
+མགོ	mgo
+
+མང	mnga
+མངི	mngi
+མངུ	mngu
+མངེ	mnge
+མངོ	mngo
+
+མཆ	mcha
+མཆི	mchi
+མཆུ	mchu
+མཆེ	mche
+མཆོ	mcho
+
+མཇ	mja
+མཇི	mji
+མཇུ	mju
+མཇེ	mje
+མཇོ	mjo
+
+མཉ	mnya
+མཉི	mnyi
+མཉུ	mnyu
+མཉེ	mnye
+མཉོ	mnyo
+
+མཐ	mtha
+མཐི	mthi
+མཐུ	mthu
+མཐེ	mthe
+མཐོ	mtho
+
+མད	mda
+མདི	mdi
+མདུ	mdu
+མདེ	mde
+མདོ	mdo
+
+མན	mna
+མནི	mni
+མནུ	mnu
+མནེ	mne
+མནོ	mno
+
+མཚ	mtsha
+མཚི	mtshi
+མཚུ	mtshu
+མཚེ	mtshe
+མཚོ	mtsho
+
+མཛ	mdza
+མཛི	mdzi
+མཛུ	mdzu
+མཛེ	mdze
+མཛོ	mdzo
+
+འཁ	'kha
+འཁི	'khi
+འཁུ	'khu
+འཁེ	'khe
+འཁོ	'kho
+
+འག	'ga
+འགི	'gi
+འགུ	'gu
+འགེ	'ge
+འགོ	'go
+
+འཆ	'cha
+འཆི	'chi
+འཆུ	'chu
+འཆེ	'che
+འཆོ	'cho
+
+འཇ	'ja
+འཇི	'ji
+འཇུ	'ju
+འཇེ	'je
+འཇོ	'jo
+
+འཐ	'tha
+འཐི	'thi
+འཐུ	'thu
+འཐེ	'the
+འཐོ	'tho
+
+འད	'da
+འདི	'di
+འདུ	'du
+འདེ	'de
+འདོ	'do
+
+འཕ	'pha
+འཕི	'phi
+འཕུ	'phu
+འཕེ	'phe
+འཕོ	'pho
+
+འབ	'ba
+འབི	'bi
+འབུ	'bu
+འབེ	'be
+འབོ	'bo
+
+འཚ	'tsha
+འཚི	'tshi
+འཚུ	'tshu
+འཚེ	'tshe
+འཚོ	'tsho
+
+འཛ	'dza
+འཛི	'dzi
+འཛུ	'dzu
+འཛེ	'dze
+འཛོ	'dzo
+
+##
+འཁ	vkha
+འཁི	vkhi
+འཁུ	vkhu
+འཁེ	vkhe
+འཁོ	vkho
+
+འག	vga
+འགི	vgi
+འགུ	vgu
+འགེ	vge
+འགོ	vgo
+
+འཆ	vcha
+འཆི	vchi
+འཆུ	vchu
+འཆེ	vche
+འཆོ	vcho
+
+འཇ	vja
+འཇི	vji
+འཇུ	vju
+འཇེ	vje
+འཇོ	vjo
+
+འཐ	vtha
+འཐི	vthi
+འཐུ	vthu
+འཐེ	vthe
+འཐོ	vtho
+
+འད	vda
+འདི	vdi
+འདུ	vdu
+འདེ	vde
+འདོ	vdo
+
+འཕ	vpha
+འཕི	vphi
+འཕུ	vphu
+འཕེ	vphe
+འཕོ	vpho
+
+འབ	vba
+འབི	vbi
+འབུ	vbu
+འབེ	vbe
+འབོ	vbo
+
+འཚ	vtsha
+འཚི	vtshi
+འཚུ	vtshu
+འཚེ	vtshe
+འཚོ	vtsho
+
+འཛ	vdza
+འཛི	vdzi
+འཛུ	vdzu
+འཛེ	vdze
+འཛོ	vdzo
+
+###
+དཀྱ	dkya
+དཀྱི	dkyi
+དཀྱུ	dkyu
+དཀྱེ	dkye
+དཀྱོ	dkyo
+
+དགྱ	dgya
+དགྱི	dgyi
+དགྱུ	dgyu
+དགྱེ	dgye
+དགྱོ	dgyo
+
+དཔྱ	dpya
+དཔྱི	dpyi
+དཔྱུ	dpyu
+དཔྱེ	dpye
+དཔྱོ	dpyo
+
+དབྱ	dbya
+དབྱི	dbyi
+དབྱུ	dbyu
+དབྱེ	dbye
+དབྱོ	dbyo
+
+དམྱ	dmya
+དམྱི	dmyi
+དམྱུ	dmyu
+དམྱེ	dmye
+དམྱོ	dmyo
+
+མཁྱ	mkhya
+མཁྱི	mkhyi
+མཁྱུ	mkhyu
+མཁྱེ	mkhye
+མཁྱོ	mkhyo
+
+མགྱ	mgya
+མགྱི	mgyi
+མགྱུ	mgyu
+མགྱེ	mgye
+མགྱོ	mgyo
+
+འཁྱ	'khya
+འཁྱི	'khyi
+འཁྱུ	'khyu
+འཁྱེ	'khye
+འཁྱོ	'khyo
+
+འགྱ	'gya
+འགྱི	'gyi
+འགྱུ	'gyu
+འགྱེ	'gye
+འགྱོ	'gyo
+
+འཕྱ	'phya
+འཕྱི	'phyi
+འཕྱུ	'phyu
+འཕྱེ	'phye
+འཕྱོ	'phyo
+
+འབྱ	'bya
+འབྱི	'byi
+འབྱུ	'byu
+འབྱེ	'bye
+འབྱོ	'byo
+
+བཀྱ	bkya
+བཀྱི	bkyi
+བཀྱུ	bkyu
+བཀྱེ	bkye
+བཀྱོ	bkyo
+
+བགྱ	bgya
+བགྱི	bgyi
+བགྱུ	bgyu
+བགྱེ	bgye
+བགྱོ	bgyo
+
+དཀྲ	dkra
+དཀྲི	dkri
+དཀྲུ	dkru
+དཀྲེ	dkre
+དཀྲོ	dkro
+
+དགྲ	dgra
+དགྲི	dgri
+དགྲུ	dgru
+དགྲེ	dgre
+དགྲོ	dgro
+
+དཔྲ	dpra
+དཔྲི	dpri
+དཔྲུ	dpru
+དཔྲེ	dpre
+དཔྲོ	dpro
+
+དབྲ	dbra
+དབྲི	dbri
+དབྲུ	dbru
+དབྲེ	dbre
+དབྲོ	dbro
+
+མཁྲ	mkhra
+མཁྲི	mkhri
+མཁྲུ	mkhru
+མཁྲེ	mkhre
+མཁྲོ	mkhro
+
+མགྲ	mgra
+མགྲི	mgri
+མགྲུ	mgru
+མགྲེ	mgre
+མགྲོ	mgro
+
+བཀྲ	bkra
+བཀྲི	bkri
+བཀྲུ	bkru
+བཀྲེ	bkre
+བཀྲོ	bkro
+
+བགྲ	bgra
+བགྲི	bgri
+བགྲུ	bgru
+བགྲེ	bgre
+བགྲོ	bgro
+
+བསྲ	bsra
+བསྲི	bsri
+བསྲུ	bsru
+བསྲེ	bsre
+བསྲོ	bsro
+
+འཁྲ	'khra
+འཁྲི	'khri
+འཁྲུ	'khru
+འཁྲེ	'khre
+འཁྲོ	'khro
+
+འགྲ	'gra
+འགྲི	'gri
+འགྲུ	'gru
+འགྲེ	'gre
+འགྲོ	'gro
+
+འདྲ	'dra
+འདྲི	'dri
+འདྲུ	'dru
+འདྲེ	'dre
+འདྲོ	'dro
+
+འཕྲ	'phra
+འཕྲི	'phri
+འཕྲུ	'phru
+འཕྲེ	'phre
+འཕྲོ	'phro
+
+འབྲ	'bra
+འབྲི	'bri
+འབྲུ	'bru
+འབྲེ	'bre
+འབྲོ	'bro
+
+བཀླ	bkla
+བཀླི	bkli
+བཀླུ	bklu
+བཀླེ	bkle
+བཀློ	bklo
+
+བགླ	bgla
+བགླི	bgli
+བགླུ	bglu
+བགླེ	bgle
+བགློ	bglo
+
+བཟླ	bzla
+བཟླི	bzli
+བཟླུ	bzlu
+བཟླེ	bzle
+བཟློ	bzlo
+
+བརླ	brla
+བརླི	brli
+བརླུ	brlu
+བརླེ	brle
+བརློ	brlo
+
+བསླ	bsla
+བསླི	bsli
+བསླུ	bslu
+བསླེ	bsle
+བསློ	bslo
+
+བརྐ	brka
+བརྐི	brki
+བརྐུ	brku
+བརྐེ	brke
+བརྐོ	brko
+
+བརྒ	brga
+བརྒི	brgi
+བརྒུ	brgu
+བརྒེ	brge
+བརྒོ	brgo
+
+བརྔ	brnga
+བརྔི	brngi
+བརྔུ	brngu
+བརྔེ	brnge
+བརྔོ	brngo
+
+བརྗ	brja
+བརྗི	brji
+བརྗུ	brju
+བརྗེ	brje
+བརྗོ	brjo
+
+བརྙ	brnya
+བརྙི	brnyi
+བརྙུ	brnyu
+བརྙེ	brnye
+བརྙོ	brnyo
+
+བརྟ	brta
+བརྟི	brti
+བརྟུ	brtu
+བརྟེ	brte
+བརྟོ	brto
+
+བརྡ	brda
+བརྡི	brdi
+བརྡུ	brdu
+བརྡེ	brde
+བརྡོ	brdo
+
+བརྣ	brna
+བརྣི	brni
+བརྣུ	brnu
+བརྣེ	brne
+བརྣོ	brno
+
+བརྩ	brtsa
+བརྩི	brtsi
+བརྩུ	brtsu
+བརྩེ	brtse
+བརྩོ	brtso
+
+བརྫ	brdza
+བརྫི	brdzi
+བརྫུ	brdzu
+བརྫེ	brdze
+བརྫོ	brdzo
+
+བལྟ	blta
+བལྟི	blti
+བལྟུ	bltu
+བལྟེ	blte
+བལྟོ	blto
+
+བལྡ	blda
+བལྡི	bldi
+བལྡུ	bldu
+བལྡེ	blde
+བལྡོ	bldo
+
+བསྐ	bska
+བསྐི	bski
+བསྐུ	bsku
+བསྐེ	bske
+བསྐོ	bsko
+
+བསྒ	bsga
+བསྒི	bsgi
+བསྒུ	bsgu
+བསྒེ	bsge
+བསྒོ	bsgo
+
+བསྔ	bsnga
+བསྔི	bsngi
+བསྔུ	bsngu
+བསྔེ	bsnge
+བསྔོ	bsngo
+
+བསྙ	bsnya
+བསྙི	bsnyi
+བསྙུ	bsnyu
+བསྙེ	bsnye
+བསྙོ	bsnyo
+
+བསྟ	bsta
+བསྟི	bsti
+བསྟུ	bstu
+བསྟེ	bste
+བསྟོ	bsto
+
+བསྡ	bsda
+བསྡི	bsdi
+བསྡུ	bsdu
+བསྡེ	bsde
+བསྡོ	bsdo
+
+བསྣ	bsna
+བསྣི	bsni
+བསྣུ	bsnu
+བསྣེ	bsne
+བསྣོ	bsno
+
+བསྩ	bstsa
+བསྩི	bstsi
+བསྩུ	bstsu
+བསྩེ	bstse
+བསྩོ	bstso
+
+བརྐྱ	brkya
+བརྐྱི	brkyi
+བརྐྱུ	brkyu
+བརྐྱེ	brkye
+བརྐྱོ	brkyo
+
+བརྒྱ	brgya
+བརྒྱི	brgyi
+བརྒྱུ	brgyu
+བརྒྱེ	brgye
+བརྒྱོ	brgyo
+
+བསྐྱ	bskya
+བསྐྱི	bskyi
+བསྐྱུ	bskyu
+བསྐྱེ	bskye
+བསྐྱོ	bskyo
+
+བསྒྱ	bsgya
+བསྒྱི	bsgyi
+བསྒྱུ	bsgyu
+བསྒྱེ	bsgye
+བསྒྱོ	bsgyo
+
+བསྐྲ	bskra
+བསྐྲི	bskri
+བསྐྲུ	bskru
+བསྐྲེ	bskre
+བསྐྲོ	bskro
+
+བསྒྲ	bsgra
+བསྒྲི	bsgri
+བསྒྲུ	bsgru
+བསྒྲེ	bsgre
+བསྒྲོ	bsgro
+
+བསྭ	bswa
+བསྭི	bswi
+བསྭུ	bswu
+བསྭེ	bswe
+བསྭོ	bswo
+
+
+###འ
+འཁྱ	vkhya
+འཁྱི	vkhyi
+འཁྱུ	vkhyu
+འཁྱེ	vkhye
+འཁྱོ	vkhyo
+
+འགྱ	vgya
+འགྱི	vgyi
+འགྱུ	vgyu
+འགྱེ	vgye
+འགྱོ	vgyo
+
+འཕྱ	vphya
+འཕྱི	vphyi
+འཕྱུ	vphyu
+འཕྱེ	vphye
+འཕྱོ	vphyo
+
+འབྱ	vbya
+འབྱི	vbyi
+འབྱུ	vbyu
+འབྱེ	vbye
+འབྱོ	vbyo
+
+འཁྲ	vkhra
+འཁྲི	vkhri
+འཁྲུ	vkhru
+འཁྲེ	vkhre
+འཁྲོ	vkhro
+
+འགྲ	vgra
+འགྲི	vgri
+འགྲུ	vgru
+འགྲེ	vgre
+འགྲོ	vgro
+
+འདྲ	vdra
+འདྲི	vdri
+འདྲུ	vdru
+འདྲེ	vdre
+འདྲོ	vdro
+
+འཕྲ	vphra
+འཕྲི	vphri
+འཕྲུ	vphru
+འཕྲེ	vphre
+འཕྲོ	vphro
+
+འབྲ	vbra
+འབྲི	vbri
+འབྲུ	vbru
+འབྲེ	vbre
+འབྲོ	vbro
+
