@@ -1,0 +1,90 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: tibetan
+  name: "བོད་ཡིག"
+  version: "tibetan 0.1"
+  author:
+    - rime<rime@gmail.com>
+  description: 
+    按Wylie轉寫輸入藏文
+    分字點按'.'鍵
+  dependencies:
+    - tibetan_words1
+
+switches:
+  - name: full_shape
+    reset: 0
+#    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    reset: 1
+#    states: [ 句讀, 符號 ]
+  - name: ascii_mode
+    reset: 0
+    states: [ བོད་ཡིག, En ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - script_translator
+    - table_translator@tibetan_words1
+  filters:
+    - uniquifier           # ※ 過濾重複的候選字
+
+menu:
+  alternative_select_keys: "BCDEFGHIJ"
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz.,;''0123456789\/A'
+  delimiter: ' '
+#  algebra:
+#    - derive/A/\\/
+#    - derive/A/\.;/
+#    - derive/v/'/
+
+translator:
+  dictionary: tibetan
+  enable_user_dict: false
+  enable_sentence: true
+  preedit_format:
+    - xlit/vf/'^/
+  comment_format:
+    - xlit/vf/'^/
+  initial_quality: 0.5
+
+tibetan_words1:
+  dictionary: tibetan_words1
+  prism: tibetan_words1
+  preedit_format:
+    - xlit/vf/'^/
+  comment_format:
+#    - xform/^【+/_/
+    - xlit/vf/'^/
+#    - xform/(【|】|［)//
+  enable_user_dict: false
+  enable_charset_filter: false
+  enable_sentence: false    #連打功能#false取消  true
+  initial_quality: 0.8
+
+
+key_binder:
+  bindings:
+    - { when: has_menu, accept: space, send: space }
+    - { when: composing, accept: space, send: Escape }
+    - { when: always, accept: comma, send: comma }   #comma，period。
+    - { when: always, accept: period, send: period }
+    - { when: always, accept: semicolon, send: semicolon } #分號
+    - { when: always, accept: apostrophe, send: apostrophe } #引號
+  import_preset: default
