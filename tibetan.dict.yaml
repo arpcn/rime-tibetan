@@ -137,7 +137,7 @@ sort: original
 #
 གས	g;s
 བས	b;s
-#
+#***
 རད	r;d
 ལད	l;d
 #
@@ -246,6 +246,236 @@ sort: original
 ྺ	/;w
 ྻ	/;y
 ྼ	/;r
+
+
+####tibetan01####無前加字#
+
+ཀྱ	ky
+ཁྱ	khy
+གྱ	gy
+པྱ	py
+ཕྱ	phy
+བྱ	by
+མྱ	my
+ཀྲ	kr
+ཁྲ	khr
+གྲ	gr
+དྲ	dr
+པྲ	pr
+ཕྲ	phr
+བྲ	br
+མྲ	mr
+སྲ	sr
+ཧྲ	hr
+ཀླ	kl
+གླ	gl
+བླ	bl
+ཟླ	zl
+རླ	rl
+སླ	sl
+ཀྭ	kw
+ཁྭ	khw
+གྭ	gw
+ཉྭ	nyw
+དྭ	dw
+ཚྭ	tshw
+ཞྭ	qw
+ཟྭ	zw
+རྭ	rw
+ལྭ	lw
+ཤྭ	xw
+ཧྭ	hw
+རྐ	rk
+རྒ	rg
+རྔ	rng
+རྗ	rj
+རྙ	rny
+རྟ	rt
+རྡ	rd
+རྣ	rn
+རྦ	rb
+རྨ	rm
+རྩ	rts
+རྫ	rdz
+ལྐ	lk
+ལྒ	lg
+ལྔ	lng
+ལྕ	lc
+ལྗ	lj
+ལྟ	lt
+ལྡ	ld
+ལྤ	lp
+ལྦ	lb
+ལྷ	lh
+སྐ	sk
+སྒ	sg
+སྔ	sng
+སྙ	sny
+སྟ	st
+སྡ	sd
+སྣ	sn
+སྤ	sp
+སྦ	sb
+སྨ	sm
+སྩ	sts
+རྐྱ	rky
+རྒྱ	rgy
+རྨྱ	rmy
+སྐྱ	sky
+སྒྱ	sgy
+སྤྱ	spy
+སྦྱ	sby
+སྨྱ	smy
+སྐྲ	skr
+སྒྲ	sgr
+སྤྲ	spr
+སྦྲ	sbr
+སྨྲ	smr
+རྩྭ	rtsw
+ཕྱྭ	phyw
+གྲྭ	grw
+ཧྥ	hph
+ཏྲ	tr
+ཐྲ	thr
+སྣྲ	snr
+ཙྭ	tsw
+སྭ	sw
+ཧྱ	hy
+ལྩ	lts
+
+#####tibetan02###有前加字#
+##有前加字#無上下加字#གཡ	gy
+གཡ	g;y
+
+གཅ	gc
+གཉ	gny
+གཏ	gt
+གད	gd
+གན	gn
+གཙ	gts
+གཞ	gq
+གཟ	gz
+གཤ	gx
+གས	gs
+དཀ	dk
+དག	dg
+དང	dng
+དཔ	dp
+དབ	db
+དམ	dm
+བཀ	bk
+བག	bg
+བཅ	bc
+བཏ	bt
+བད	bd
+བཙ	bts
+བཞ	bq
+བཟ	bz
+བཤ	bx
+བས	bs
+མཁ	mkh
+མག	mg
+མང	mng
+མཆ	mch
+མཇ	mj
+མཉ	mny
+མཐ	mth
+མད	md
+མན	mn
+མཚ	mtsh
+མཛ	mdz
+འཁ	'kh
+འག	'g
+འཆ	'ch
+འཇ	'j
+འཐ	'th
+འད	'd
+འཕ	'ph
+འབ	'b
+འཚ	'tsh
+འཛ	'dz
+##འ
+འཁ	vkh
+འག	vg
+འཆ	vch
+འཇ	vj
+འཐ	vth
+འད	vd
+འཕ	vph
+འབ	vb
+འཚ	vtsh
+འཛ	vdz
+###有前加字#及上下加字##
+དཀྱ	dky
+དགྱ	dgy
+དཔྱ	dpy
+དབྱ	dby
+དམྱ	dmy
+མཁྱ	mkhy
+མགྱ	mgy
+འཁྱ	'khy
+འགྱ	'gy
+འཕྱ	'phy
+འབྱ	'by
+བཀྱ	bky
+བགྱ	bgy
+དཀྲ	dkr
+དགྲ	dgr
+དཔྲ	dpr
+དབྲ	dbr
+མཁྲ	mkhr
+མགྲ	mgr
+བཀྲ	bkr
+བགྲ	bgr
+བསྲ	bsr
+འཁྲ	'khr
+འགྲ	'gr
+འདྲ	'dr
+འཕྲ	'phr
+འབྲ	'br
+བཀླ	bkl
+བགླ	bgl
+བཟླ	bzl
+བརླ	brl
+བསླ	bsl
+བརྐ	brk
+བརྒ	brg
+བརྔ	brng
+བརྗ	brj
+བརྙ	brny
+བརྟ	brt
+བརྡ	brd
+བརྣ	brn
+བརྩ	brts
+བརྫ	brdz
+བལྟ	blt
+བལྡ	bld
+བསྐ	bsk
+བསྒ	bsg
+བསྔ	bsng
+བསྙ	bsny
+བསྟ	bst
+བསྡ	bsd
+བསྣ	bsn
+བསྩ	bsts
+བརྐྱ	brky
+བརྒྱ	brgy
+བསྐྱ	bsky
+བསྒྱ	bsgy
+བསྐྲ	bskr
+བསྒྲ	bsgr
+བསྭ	bsw
+
+###འ
+འཁྱ	vkhy
+འགྱ	vgy
+འཕྱ	vphy
+འབྱ	vby
+འཁྲ	vkhr
+འགྲ	vgr
+འདྲ	vdr
+འཕྲ	vphr
+འབྲ	vbr
 
 ######sanskrit00a###
 
@@ -773,102 +1003,6 @@ sort: original
 ྼེ	/;re
 ྼོ	/;ro
 
-
-
-####tibetan01####無前加字#
-
-ཀྱ	ky
-ཁྱ	khy
-གྱ	gy
-པྱ	py
-ཕྱ	phy
-བྱ	by
-མྱ	my
-ཀྲ	kr
-ཁྲ	khr
-གྲ	gr
-དྲ	dr
-པྲ	pr
-ཕྲ	phr
-བྲ	br
-མྲ	mr
-སྲ	sr
-ཧྲ	hr
-ཀླ	kl
-གླ	gl
-བླ	bl
-ཟླ	zl
-རླ	rl
-སླ	sl
-ཀྭ	kw
-ཁྭ	khw
-གྭ	gw
-ཉྭ	nyw
-དྭ	dw
-ཚྭ	tshw
-ཞྭ	qw
-ཟྭ	zw
-རྭ	rw
-ལྭ	lw
-ཤྭ	xw
-ཧྭ	hw
-རྐ	rk
-རྒ	rg
-རྔ	rng
-རྗ	rj
-རྙ	rny
-རྟ	rt
-རྡ	rd
-རྣ	rn
-རྦ	rb
-རྨ	rm
-རྩ	rts
-རྫ	rdz
-ལྐ	lk
-ལྒ	lg
-ལྔ	lng
-ལྕ	lc
-ལྗ	lj
-ལྟ	lt
-ལྡ	ld
-ལྤ	lp
-ལྦ	lb
-ལྷ	lh
-སྐ	sk
-སྒ	sg
-སྔ	sng
-སྙ	sny
-སྟ	st
-སྡ	sd
-སྣ	sn
-སྤ	sp
-སྦ	sb
-སྨ	sm
-སྩ	sts
-རྐྱ	rky
-རྒྱ	rgy
-རྨྱ	rmy
-སྐྱ	sky
-སྒྱ	sgy
-སྤྱ	spy
-སྦྱ	sby
-སྨྱ	smy
-སྐྲ	skr
-སྒྲ	sgr
-སྤྲ	spr
-སྦྲ	sbr
-སྨྲ	smr
-རྩྭ	rtsw
-ཕྱྭ	phyw
-གྲྭ	grw
-ཧྥ	hph
-ཏྲ	tr
-ཐྲ	thr
-སྣྲ	snr
-ཙྭ	tsw
-སྭ	sw
-ཧྱ	hy
-ལྩ	lts
 
 ####tibetan01a#####
 ཀྱ	kya
@@ -1423,175 +1557,8 @@ sort: original
 ལྩེ	ltse
 ལྩོ	ltso
 
-#####tibetan02###有前加字#
-##有前加字#無上下加字#གཡ	gy
-གཡ	g;y
-
-གཅ	gc
-གཉ	gny
-གཏ	gt
-གད	gd
-གན	gn
-གཙ	gts
-གཞ	gq
-གཟ	gz
-གཤ	gx
-གས	gs
-དཀ	dk
-དག	dg
-དང	dng
-དཔ	dp
-དབ	db
-དམ	dm
-བཀ	bk
-བག	bg
-བཅ	bc
-བཏ	bt
-བད	bd
-བཙ	bts
-བཞ	bq
-བཟ	bz
-བཤ	bx
-བས	bs
-མཁ	mkh
-མག	mg
-མང	mng
-མཆ	mch
-མཇ	mj
-མཉ	mny
-མཐ	mth
-མད	md
-མན	mn
-མཚ	mtsh
-མཛ	mdz
-འཁ	'kh
-འག	'g
-འཆ	'ch
-འཇ	'j
-འཐ	'th
-འད	'd
-འཕ	'ph
-འབ	'b
-འཚ	'tsh
-འཛ	'dz
-##འ
-འཁ	vkh
-འག	vg
-འཆ	vch
-འཇ	vj
-འཐ	vth
-འད	vd
-འཕ	vph
-འབ	vb
-འཚ	vtsh
-འཛ	vdz
-###有前加字#及上下加字##
-དཀྱ	dky
-དགྱ	dgy
-དཔྱ	dpy
-དབྱ	dby
-དམྱ	dmy
-མཁྱ	mkhy
-མགྱ	mgy
-འཁྱ	'khy
-འགྱ	'gy
-འཕྱ	'phy
-འབྱ	'by
-བཀྱ	bky
-བགྱ	bgy
-དཀྲ	dkr
-དགྲ	dgr
-དཔྲ	dpr
-དབྲ	dbr
-མཁྲ	mkhr
-མགྲ	mgr
-བཀྲ	bkr
-བགྲ	bgr
-བསྲ	bsr
-འཁྲ	'khr
-འགྲ	'gr
-འདྲ	'dr
-འཕྲ	'phr
-འབྲ	'br
-བཀླ	bkl
-བགླ	bgl
-བཟླ	bzl
-བརླ	brl
-བསླ	bsl
-བརྐ	brk
-བརྒ	brg
-བརྔ	brng
-བརྗ	brj
-བརྙ	brny
-བརྟ	brt
-བརྡ	brd
-བརྣ	brn
-བརྩ	brts
-བརྫ	brdz
-བལྟ	blt
-བལྡ	bld
-བསྐ	bsk
-བསྒ	bsg
-བསྔ	bsng
-བསྙ	bsny
-བསྟ	bst
-བསྡ	bsd
-བསྣ	bsn
-བསྩ	bsts
-བརྐྱ	brky
-བརྒྱ	brgy
-བསྐྱ	bsky
-བསྒྱ	bsgy
-བསྐྲ	bskr
-བསྒྲ	bsgr
-བསྭ	bsw
-
-###འ
-འཁྱ	vkhy
-འགྱ	vgy
-འཕྱ	vphy
-འབྱ	vby
-འཁྲ	vkhr
-འགྲ	vgr
-འདྲ	vdr
-འཕྲ	vphr
-འབྲ	vbr
 
 ####tibetan02a#####
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ##
