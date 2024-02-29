@@ -4,7 +4,7 @@ https://docs.qq.com/doc/DQW1nbmZZTEFNQVNx
 
 # **rime梵藏輸入方案**
 
-這一套輸入方案中，IAST、天城、悉曇、婆羅米、藏文，都是**一樣的編碼方式**。
+這一套輸入方案中，IAST、天城、悉曇、婆羅米、藏文，都是[**一樣的編碼方式**](#)。
 
 **天城體** devanagari
 
